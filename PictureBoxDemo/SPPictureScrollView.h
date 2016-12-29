@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "SPPictureBoxCell.h"
 
-@interface SPPictureScrollView : UIView
+@interface SPPictureScrollView : UIView <SPPictureBoxCellDelegate>
+
+- (void)setScrollContentSize:(CGFloat)height;
 
 @end

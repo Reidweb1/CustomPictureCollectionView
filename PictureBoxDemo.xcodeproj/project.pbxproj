@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		285EFCEA1C10C325008DCAF1 /* SPPictureBoxCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 285EFCE91C10C325008DCAF1 /* SPPictureBoxCell.m */; };
+		28C04F131C18A7D200471BC7 /* SPTextFieldHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C04F121C18A7D200471BC7 /* SPTextFieldHeader.m */; };
 		28EE66051C10A72D00E3405E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 28EE66041C10A72D00E3405E /* main.m */; };
 		28EE66081C10A72D00E3405E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 28EE66071C10A72D00E3405E /* AppDelegate.m */; };
 		28EE660B1C10A72D00E3405E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28EE660A1C10A72D00E3405E /* ViewController.m */; };
@@ -14,9 +16,15 @@
 		28EE66111C10A72D00E3405E /* PictureBoxDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 28EE660F1C10A72D00E3405E /* PictureBoxDemo.xcdatamodeld */; };
 		28EE66131C10A72D00E3405E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28EE66121C10A72D00E3405E /* Assets.xcassets */; };
 		28EE66161C10A72D00E3405E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28EE66141C10A72D00E3405E /* LaunchScreen.storyboard */; };
+		28EE661F1C10A7D100E3405E /* PictureBoxViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28EE661E1C10A7D100E3405E /* PictureBoxViewController.m */; };
+		28EE66221C10A8D400E3405E /* SPPictureScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 28EE66211C10A8D400E3405E /* SPPictureScrollView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		285EFCE81C10C325008DCAF1 /* SPPictureBoxCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPPictureBoxCell.h; sourceTree = "<group>"; };
+		285EFCE91C10C325008DCAF1 /* SPPictureBoxCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPPictureBoxCell.m; sourceTree = "<group>"; };
+		28C04F111C18A7D200471BC7 /* SPTextFieldHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPTextFieldHeader.h; sourceTree = "<group>"; };
+		28C04F121C18A7D200471BC7 /* SPTextFieldHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPTextFieldHeader.m; sourceTree = "<group>"; };
 		28EE66001C10A72D00E3405E /* PictureBoxDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PictureBoxDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		28EE66041C10A72D00E3405E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		28EE66061C10A72D00E3405E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -28,6 +36,10 @@
 		28EE66121C10A72D00E3405E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		28EE66151C10A72D00E3405E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		28EE66171C10A72D00E3405E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28EE661D1C10A7D100E3405E /* PictureBoxViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PictureBoxViewController.h; sourceTree = "<group>"; };
+		28EE661E1C10A7D100E3405E /* PictureBoxViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PictureBoxViewController.m; sourceTree = "<group>"; };
+		28EE66201C10A8D400E3405E /* SPPictureScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPPictureScrollView.h; sourceTree = "<group>"; };
+		28EE66211C10A8D400E3405E /* SPPictureScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPPictureScrollView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,8 +74,16 @@
 			children = (
 				28EE66061C10A72D00E3405E /* AppDelegate.h */,
 				28EE66071C10A72D00E3405E /* AppDelegate.m */,
+				28EE661D1C10A7D100E3405E /* PictureBoxViewController.h */,
+				28EE661E1C10A7D100E3405E /* PictureBoxViewController.m */,
 				28EE66091C10A72D00E3405E /* ViewController.h */,
 				28EE660A1C10A72D00E3405E /* ViewController.m */,
+				28EE66201C10A8D400E3405E /* SPPictureScrollView.h */,
+				28EE66211C10A8D400E3405E /* SPPictureScrollView.m */,
+				285EFCE81C10C325008DCAF1 /* SPPictureBoxCell.h */,
+				285EFCE91C10C325008DCAF1 /* SPPictureBoxCell.m */,
+				28C04F111C18A7D200471BC7 /* SPTextFieldHeader.h */,
+				28C04F121C18A7D200471BC7 /* SPTextFieldHeader.m */,
 				28EE660C1C10A72D00E3405E /* Main.storyboard */,
 				28EE66121C10A72D00E3405E /* Assets.xcassets */,
 				28EE66141C10A72D00E3405E /* LaunchScreen.storyboard */,
@@ -152,8 +172,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28EE661F1C10A7D100E3405E /* PictureBoxViewController.m in Sources */,
 				28EE660B1C10A72D00E3405E /* ViewController.m in Sources */,
+				285EFCEA1C10C325008DCAF1 /* SPPictureBoxCell.m in Sources */,
+				28C04F131C18A7D200471BC7 /* SPTextFieldHeader.m in Sources */,
 				28EE66111C10A72D00E3405E /* PictureBoxDemo.xcdatamodeld in Sources */,
+				28EE66221C10A8D400E3405E /* SPPictureScrollView.m in Sources */,
 				28EE66081C10A72D00E3405E /* AppDelegate.m in Sources */,
 				28EE66051C10A72D00E3405E /* main.m in Sources */,
 			);
@@ -217,7 +241,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -255,7 +279,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -304,6 +328,7 @@
 				28EE661C1C10A72D00E3405E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

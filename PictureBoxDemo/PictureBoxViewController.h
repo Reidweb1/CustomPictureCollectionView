@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface PictureBoxViewController : UIViewController
+@interface PictureBoxViewController : UIViewController <UITextFieldDelegate>
 
 @end
